@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section__title {
+    color: #26395D;
+    text-align: center;
+}
+
+/* ===== NAV ===== */
+.nav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav__link{
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background-image: linear-gradient(to top, #0c3483c5 0%, #104abe88 100%, #0c3da0c7 100%, #0c49c4a2 100%), url('../img/bg.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 350px;
+}
+
+
+/* MAIN Convocatoias */
+.covocatorias__content {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.main .section__title {
+    font-size: 40px;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.bgg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ===== ACERCA DE ===== */
+.title {
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+.description {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    text-align: justify;
+}
+.antecedentes {
+    width: 50%;
+}
+.img {
+    width: 45%;
+    margin: 30px;
+}
+.img img {
+    width: 100%;
+}
+.container__text {
+    display: flex;
+    justify-content: space-between;
+}
+.bg__mision {
+    background-color: #434344;
+}
+.bg__mision1 {
+    background-color: #204ec4;
+}
+.mision__title{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.mision__description {
+    color: #fff;
+    font-weight: 400;
+    padding: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.mision {
+    display: flex;
+    justify-content: space-between;
+}
+.mision1 {
+    width: 45%;
+    height: auto;
+    border-radius: 0.3125rem;
+}
+
+
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #26395D;
+}
+.footer .section__title {
+    font-size: 40px;
+    padding-top: 60px;
+    color: #fff;
+}
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.contact__us {
+    display: flex;
+    flex-direction: column;
+}
+.contact__title {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.contact__description {
+    margin-bottom: 10px;
+}
+.contact__icon {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.link__maps {
+    color: #1d60db;
+    font-weight: 600;
+}

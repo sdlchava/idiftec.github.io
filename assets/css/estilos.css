@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section__title {
+    color: #26395D;
+    text-align: center;
+}
+
+/* ===== NAV ===== */
+.nav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav__link{
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background-image: linear-gradient(to top, rgba(12, 52, 131, 0.568) 0%, rgba(28, 88, 207, 0.582) 100%, rgba(34, 94, 214, 0.555) 100%, rgba(47, 101, 209, 0.61) 100%), url('../img/bg.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__logo {
+    /* margin-top: 0px; */
+    width: 150px;
+    height: 100px;
+    margin-bottom: 80px;
+}
+.hero__logo img {
+    width: 100%;
+}
+.hero__title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.hero__subtitle {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero__button{
+    display: inline-block;
+    color: #fff;
+    background: #1B3A67;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.hero__button:hover {
+    background: #212222;
+}
+.hero__icon {
+    margin-right: 10px;
+}
+
+/* MAIN Academy */
+.academy__texts {
+    text-align: center;
+}
+.section__title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.section__description {
+    font-weight: 500;
+    color: #444655;
+    font-size: 18px;
+}
+.academy__student {
+    background: #F3F4F6;
+}
+.student__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.student {
+    width: 20%;
+    text-align: center;
+}
+.student__icon {
+    display: inline-block;
+    color: #26395D;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.student__description {
+    color: #444655;
+    font-weight: 500;
+    font-size: 18px; 
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.warning__img {
+    width: 40%;
+}
+.warning__img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3125rem;
+}
+
+.table {
+    width: 55%;
+    background-color: #26395D;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.table__description {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.table__link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.list {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px 30px;
+    text-align: left;
+}
+
+.red {
+    background-color: #69232e;
+}
+
+.table__img img{
+    width: 600px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #26395D;
+}
+.footer .section__title {
+    padding-top: 60px;
+    color: #fff;
+}
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.contact__us {
+    display: flex;
+    flex-direction: column;
+}
+.contact__title {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.contact__description {
+    margin-bottom: 10px;
+}
+.contact__icon {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.link__maps {
+    color: #1d60db;
+    font-weight: 600;
+}

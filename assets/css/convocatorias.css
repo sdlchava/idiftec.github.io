@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section__title {
+    color: #26395D;
+    text-align: center;
+}
+
+/* ===== NAV ===== */
+.nav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav__link{
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background-image: linear-gradient(to top, rgba(12, 52, 131, 0.568) 0%, rgba(28, 88, 207, 0.582) 100%, rgba(34, 94, 214, 0.555) 100%, rgba(47, 101, 209, 0.61) 100%), url('../img/bg-convocatorias2.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 350px;
+}
+
+
+/* MAIN Convocatoias */
+.covocatorias__content {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.main .section__title {
+    font-size: 40px;
+    padding-top: 60px;
+    font-size: 40px;
+}
+.convocatorias {
+    width: 35%;
+}
+.registro {
+    width: 100%;
+    height: auto;
+    background-color: #AE3935;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: rgba(235, 228, 228, 0.808);
+}
+.convocatoria__img {
+    width: 55%;
+}
+.convocatoria__img img {
+    width: 100%;
+}
+.convocatoria__title {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.registro__list {
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+/* MAIN Carreras */
+.carreras .section__title {
+    padding: 0;
+    font-size: 38px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #26395D;
+}
+.footer .section__title {
+    font-size: 40px;
+    padding-top: 60px;
+    color: #fff;
+}
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.contact__us {
+    display: flex;
+    flex-direction: column;
+}
+.contact__title {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.contact__description {
+    margin-bottom: 10px;
+}
+.contact__icon {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.link__maps {
+    color: #1d60db;
+    font-weight: 600;
+}
